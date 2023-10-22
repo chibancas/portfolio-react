@@ -1,0 +1,616 @@
+@media (min-width:0px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+  }
+
+  html {
+    overflow-x: hidden;
+    scrollbar-width: 0px;
+    background-color: chocolate;
+  }
+
+  header {
+    width: 100vw;
+    background-color: darkslategray;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 1vh;
+    justify-content: center;
+  }
+
+  header figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: min-content;
+    width: 33%;
+  }
+
+  header figure img {
+    width: 33vw;
+    animation: rotar 5s infinite linear;
+  }
+
+  @keyframes rotar {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+  header h1 {
+    color: white;
+    width: 67%;
+    text-align: center;
+    font-size: 2.5rem;
+    opacity: 0;
+    animation: aparece infinite 2s alternate;
+  }
+
+  @keyframes aparece {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  header nav {
+    display: none;
+    width: 99%;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 3vw;
+    font-size: 1.7rem;
+    overflow-x: scroll;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.3);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: solid .12rem silver;
+    margin: 0 auto;
+  }
+
+  header input#nav1:checked~nav#ppal {
+    display: flex;
+  }
+
+
+  header nav a {
+    height: max-content;
+    padding: 1vw;
+    border: .1rem solid black;
+    color: white;
+    font-weight: 900;
+    border-radius: .5rem;
+    text-decoration: none;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  header nav a span {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  header input {
+    display: none;
+  }
+
+  header label {
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding: 0.5rem;
+    width: max-content;
+    margin: 0 auto;
+    border: .1rem black solid;
+    border-radius: .5rem;
+    text-decoration: underline black;
+    margin-bottom: 1vh;
+
+  }
+
+  header label:active {
+    animation: color .2s alternate infinite;
+    width: max-content;
+    transition: .1s linear;
+  }
+
+  @keyframes color {
+    from {
+      background-color: transparent;
+    }
+
+    to {
+      background-color: black;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100vw;
+  }
+
+  main section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 100vw;
+    padding: 0.5rem;
+    gap: 1rem;
+  }
+
+  main section p {
+    text-align: justify;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 1.5rem;
+    height: max-content;
+  }
+
+  main section h2 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-align: center;
+    font-size: 2.25rem;
+  }
+
+  main section h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  main section {
+    margin-top: 5vh;
+  }
+
+  main section#home {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  main section#home ul {
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+    height: max-content;
+    text-align: center;
+    gap: 1rem;
+
+  }
+
+  main section#home ul li {
+    width: 100%;
+    font-size: 2rem;
+  }
+
+  main section#home figure {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-self: flex-end;
+  }
+
+  main section#home figure img {
+    width: 100%;
+    filter: sepia(.5);
+  }
+
+  main section#home p {
+    width: 100%;
+    color: white;
+    font-size: 1.5rem;
+    background-color: transparent;
+    text-align: justify;
+    line-height: normal;
+    font-weight: 100;
+  }
+
+  main section#servicios {
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+
+  main section#servicios p {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  main section#servicios nav {
+    background-color: rgba(210, 105, 30, 0.5);
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    padding: .1rem;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 1.5vh;
+  }
+
+  main section#servicios nav a::before {
+    content: "▶";
+    padding: 0.3rem;
+    animation: aparece 1s infinite;
+  }
+
+  main section#servicios nav a {
+    margin: 0 auto;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  main section#servicios figure {
+    width: 100%;
+  }
+
+  main section article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  main section article figure {
+    display: flex;
+    justify-content: center;
+  }
+
+  main section#servicios figure img {
+    width: 95vw;
+    padding: .5rem;
+    transition: .1s linear;
+  }
+
+  main section#servicios article#admin nav {
+    padding-top: 3vh;
+    gap: 7vh;
+  }
+
+  main section#servicios article#admin nav a {
+    text-align: center;
+    background-color: darkblue;
+    border-radius: 3vh;
+    border: 1px solid darkred;
+    box-shadow: 6px 12px 34px 11px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 6px 12px 34px 11px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 6px 12px 34px 11px rgba(255, 255, 255, 1);
+  }
+
+  main section#servicios article#web {
+    display: flex;
+  }
+
+  main section#servicios article#admin nav a span {
+    font-size: 4vh;
+  }
+
+  main section#servicios article#admin nav a::before {
+    content: none;
+    padding: 0.1rem;
+  }
+
+  main section {
+    justify-content: center;
+  }
+
+  main section article#games {
+    width: 90%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  main section article#games figure {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid white;
+    gap: .5rem;
+  }
+
+  main section article#games figure img {
+    width: 100%;
+  }
+
+  main section article#games figure span {
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: justify;
+  }
+
+  main section#servicios article#momae nav {
+    width: 90%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  main section#servicios article#momae nav a::before {
+    content: "";
+  }
+
+  main section#servicios article#momae nav a {
+    border: solid 2px silver;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: .5rem
+  }
+
+  main section#servicios article#momae nav a span {
+    order: 1;
+    width: 100%;
+    text-align: center;
+  }
+
+  main section#servicios article#momae nav a img {
+    order: 2;
+    width: 100%;
+  }
+
+
+  main section article#music figure {
+    width: 100%;
+    animation: scala infinite 1s alternate;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  @keyframes scala {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(.5);
+    }
+  }
+
+  main section article#music figure span {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  main section#contact form {
+    width: 98%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 1rem;
+    border: solid 2px black;
+    border-radius: 20px;
+    padding: .5rem;
+  }
+
+  main section#contact form input {
+    text-align: center;
+    width: 100%;
+    color: black;
+    font-size: 1.5rem;
+    padding: .5rem;
+    transition: .3s linear;
+    background-color: blue;
+  }
+
+  main section#contact form input::placeholder {
+    color: white;
+    font-weight: 900;
+    opacity: 90%;
+  }
+
+  main section#contact form input:focus {
+    color: white;
+    border-radius: 20px;
+    background-color: darkslateblue;
+  }
+
+  main section#contact form input#send {
+    background-color: black;
+    border: solid 2px white;
+    transition: .3s linear;
+    color: white;
+  }
+
+  main section#contact form input#send:focus {
+    color: black;
+    background-color: white;
+  }
+
+  footer {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    width: 95%;
+    justify-content: center;
+    border-top: .1rem solid black;
+    padding: .5rem;
+    margin-top: 3rem;
+  }
+
+  footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+  }
+
+  footer nav a {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+
+  }
+
+  footer nav a span {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+
+  footer nav a svg {
+    margin: 0 auto;
+  }
+
+  main section {
+    gap: 3rem;
+  }
+}
+
+
+@media (min-width:800px) {
+  header h1 {
+    font-size: 5rem
+  }
+
+  header label {
+    display: none;
+  }
+
+  header nav {
+    display: flex;
+    overflow: hidden;
+  }
+
+  header nav a {
+    background-color: siena;
+    color: white;
+  }
+
+  main section h2 {
+    font-size: 4rem;
+  }
+
+  main section p {
+    width: 90% !important;
+    height: max-content;
+    font-size: 3.5rem !important;
+  }
+
+  main section#home h2 {
+    font-size: 4vw;
+  }
+
+  main section#home figure {
+    width: 30%;
+    background-color: black;
+  }
+
+  main section#home ul {
+    width: 60%;
+  }
+
+  main section#home ul li {
+    font-size: 5vw;
+  }
+
+  main section#servicios figure {
+    width: 100%;
+  }
+
+  main section article#games {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  main section article#games figure {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 30%;
+    padding: 1rem;
+    border: 2px solid white;
+  }
+
+  main section article#games figure img {
+    width: 100%;
+  }
+
+  main section article#games figure span {
+    text-align: center;
+    font-size: 2.8rem;
+    width: 100%;
+    text-align: justify !important;
+  }
+
+  footer nav a span {
+    font-size: 2.5rem;
+  }
+
+  main section#servicios nav {
+    flex-flow: row wrap;
+  }
+
+  main section#servicios nav a {
+    font-size: 3rem;
+  }
+
+  main section#servicios article nav a {
+    width: 20%;
+    padding: .5rem;
+  }
+
+  main section#servicios article nav a img {
+    width: 100%;
+  }
+
+  main section#servicios article nav a figure {
+    background-color: black;
+
+  }
+
+  main section article nav {
+    display: flex;
+    flex-flow: row wrap !important;
+    gap: 0px !important;
+  }
+
+  main section article nav a {
+    width: 20% !important;
+    font-size: 1.8rem !important;
+    border: none !important;
+  }
+
+  main section article nav a img {
+    width: 90% !important
+  }
+}
