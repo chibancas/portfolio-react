@@ -2,7 +2,7 @@ import React from 'react'
 import forza from "./../../assets/forza.jpg"
 import unchard from "./../../assets/uncharted.jpg"
 import tlou from "./../../assets/tlou.jpg"
-import gears from "./../../assets/gears.png"
+import gears from "./../../assets/gears.jpg"
 import gta from "./../../assets/gta.jpg"
 import cell from "./../../assets/blacklist.jpg"
 import spo from "./../../assets/spotify.jpg"

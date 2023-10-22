@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import psu from "./../../assets/psu.png"
-import pcb from "./../../assets/pcb.png"
-import pc from "./../../assets/pc.png"
-import pcbuild from "./../../assets/pcbuild.png"
-import hdd from "./../../assets/hdd.png"
+import psu from "./../../assets/psu.jpg"
+import pcb from "./../../assets/pcb.jpg"
+import pc from "./../../assets/pc.jpg"
+import pcbuild from "./../../assets/pcbuild.jpg"
+import hdd from "./../../assets/hdd.jpg"
 
 
 export const Momae = () => {

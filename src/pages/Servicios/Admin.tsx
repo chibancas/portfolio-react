@@ -1,8 +1,8 @@
 import React from 'react'
-import desk from './../../assets/TeamViwer.png'
-import mexchange from './../../assets/MExchange.png'
-import apache from './../../assets/apache.png'
-import ftp from '../../assets/ftp.png'
+import desk from './../../assets/TeamViwer.jpg'
+import mexchange from './../../assets/MExchange.jpg'
+import apache from './../../assets/apache.jpg'
+import ftp from '../../assets/ftp.jpg'
 import { NavLink } from 'react-router-dom'
 
 export const Admin = () => {
