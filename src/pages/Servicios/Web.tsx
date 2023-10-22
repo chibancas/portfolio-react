@@ -1,5 +1,5 @@
 import React from 'react'
-import caronte from 'https://juanfer.vercel.app/assets/caronte.jpg'
+import caronte from './../../assets/caronte.jpg'
 
 export const Web = () => {
   return (
