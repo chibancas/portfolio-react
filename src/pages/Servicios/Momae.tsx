@@ -23,16 +23,16 @@ export const Momae = () => {
             <span>Encinede una fuente de alimentación con un clip.</span>
           </NavLink>
           <NavLink to={"https://www.youtube.com/watch?v=cRUKlp2vi1w&t=1s"} target="_blank">
-            <img src={psu} alt="Vídeo sobre las partes de una placa base." />
-            <span>Partes de una placa base</span>
+            <img src={pcb} alt="Vídeo sobre las partes de una placa base." />
+            <span>pruebaPartes de una placa base</span>
           </NavLink>
           <NavLink to={'https://www.youtube.com/watch?v=OrI1gdhtyk0'} target="_blank">
             <img src={pc} alt="Vídeo sobre el desmontaje y montaje de un PC." />
             <span>Abriendo un PC</span>
           </NavLink>
           <NavLink to={'https://www.youtube.com/watch?v=Z9JE4w7Crdw'} target="_blank">
-            <img src={psu} alt="Vídeo montando un PC en PC BUILDING SIMULATOR" />
-            <span>Montaje en PC BUILDING SIMULATOR.</span>
+            <img src={pcbuild} alt="Vídeo montando un PC en PC BUILDING SIMULATOR" />
+            <span>pruebaMontaje en PC BUILDING SIMULATOR.</span>
           </NavLink>
           <NavLink to={'https://www.youtube.com/watch?v=VZo3RMzmoyA'} target="_blank">
             <img src={hdd} alt="Vídeo sobre las partes de un disco HDD" />
