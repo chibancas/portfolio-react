@@ -10,7 +10,7 @@ export const Web = () => {
         Wordpress, HTML5, CSS3, BootStrap y Material IU.
       </p>
       <figure>
-        <img src={caronte} alt="foto proyecto caronte" />
+        <img src={caronte} alt="Foto proyecto caronte" />
       </figure>
     </article>
   )
