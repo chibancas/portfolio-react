@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import psu from "./../../assets/psu.jpg"
-import pcb from "./../../assets/pcb.jpg"
+import pcb from "./../../assets/placa.jpg"
 import pc from "./../../assets/pc.jpg"
 import pcbuild from "./../../assets/pcbuild.jpg"
 import hdd from "./../../assets/hdd.jpg"
@@ -23,7 +23,7 @@ export const Momae = () => {
             <span>Encinede una fuente de alimentación con un clip.</span>
           </NavLink>
           <NavLink to={"https://www.youtube.com/watch?v=cRUKlp2vi1w&t=1s"} target="_blank">
-            <img src={psu} alt="Vídeo sobre las partes de una placa base." />
+            <img src={pcb} alt="Vídeo sobre las partes de una placa base." />
             <span>Partes de una placa base</span>
           </NavLink>
           <NavLink to={'https://www.youtube.com/watch?v=OrI1gdhtyk0'} target="_blank">
@@ -31,7 +31,7 @@ export const Momae = () => {
             <span>Abriendo un PC</span>
           </NavLink>
           <NavLink to={'https://www.youtube.com/watch?v=Z9JE4w7Crdw'} target="_blank">
-            <img src={psu} alt="Vídeo montando un PC en PC BUILDING SIMULATOR" />
+            <img src={pcbuild} alt="Vídeo montando un PC en PC BUILDING SIMULATOR" />
             <span>Montaje en PC BUILDING SIMULATOR.</span>
           </NavLink>
           <NavLink to={'https://www.youtube.com/watch?v=VZo3RMzmoyA'} target="_blank">
