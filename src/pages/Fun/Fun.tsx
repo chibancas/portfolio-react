@@ -2,11 +2,10 @@ import React from 'react'
 import forza from "./../../assets/forza.jpg"
 import unchard from "./../../assets/uncharted.jpg"
 import tlou from "./../../assets/tlou.jpg"
-import gears from "./../../assets/gears.png"
+import gears from "./../../assets/gears.jpg"
 import gta from "./../../assets/gta.jpg"
 import cell from "./../../assets/blacklist.jpg"
 import spo from "./../../assets/spotify.jpg"
-import { NavLink } from 'react-router-dom'
 const music = [
   {
     enlace: "https://open.spotify.com/playlist/2y3fwIaDs5aFh6KQkyjbST?si=13ebfc4165124841",
