@@ -73,7 +73,7 @@ export const Fun = () => {
             <a href='https://open.spotify.com/playlist/2y3fwIaDs5aFh6KQkyjbST?si=13ebfc4165124841' target="_blank">
               <figure>
                 <img src={spo} />
-                <span>Pinche aquí</span>
+                <span>Púlsame</span>
               </figure>
             </a>
         </article>

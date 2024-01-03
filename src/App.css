@@ -1,7 +1,7 @@
 @media (min-width:0px) {
   * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -11,6 +11,7 @@
     overflow-x: hidden;
     scrollbar-width: 0px;
     background-color: chocolate;
+    scroll-behavior: smooth;
   }
 
   header {
@@ -50,7 +51,7 @@
     color: white;
     width: 67%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     opacity: 0;
     animation: aparece infinite 2s alternate;
   }
@@ -206,7 +207,7 @@
 
   main section#home ul li {
     width: 100%;
-    font-size: 2rem;
+    font-size: 1.4rem;
   }
 
   main section#home figure {
@@ -382,29 +383,28 @@
     width: 100%;
   }
 
-
   main section article#music figure {
-    width: 100%;
     animation: scala infinite 1s alternate;
-    display: flex;
+    display:flex;
     flex-flow: row wrap;
     justify-content: center;
+    width: 100vw;
   }
 
   @keyframes scala {
     from {
-      transform: scale(1);
+      transform: scale(0.5);
     }
 
     to {
-      transform: scale(.5);
+      transform: scale(1);
     }
   }
 
   main section article#music figure span {
     width: 100%;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   main section#contact form {
@@ -456,8 +456,8 @@
   footer {
     margin: 0 auto;
     display: flex;
-    flex-flow: row wrap;
-    width: 95%;
+    flex-flow: row nowrap;
+    width: 100%;
     justify-content: center;
     border-top: .1rem solid black;
     padding: .5rem;
@@ -481,7 +481,7 @@
 
   footer nav a span {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   footer nav a svg {
