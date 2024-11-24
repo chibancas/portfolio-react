@@ -210,6 +210,11 @@
     font-size: 1.4rem;
   }
 
+  main section#home ul li:nth-last-child(-n+2) {
+    text-decoration: underline solid .3vw silver;
+    border: .3vw solid black;
+  }
+
   main section#home figure {
     margin: 0 auto;
     display: flex;
@@ -385,7 +390,7 @@
 
   main section article#music figure {
     animation: scala infinite 1s alternate;
-    display:flex;
+    display: flex;
     flex-flow: row wrap;
     justify-content: center;
     width: 100vw;
@@ -528,8 +533,13 @@
   }
 
   main section#home figure {
-    width: 30%;
+    width: 40%;
     background-color: black;
+  }
+
+  main section#home figure img {
+    width: 100%;
+    height: auto;
   }
 
   main section#home ul {
@@ -538,6 +548,11 @@
 
   main section#home ul li {
     font-size: 5vw;
+  }
+
+  main section#home ul li:nth-last-child(-n+2) {
+    text-decoration: underline solid .3vw silver;
+    border: .3vw solid black;
   }
 
   main section#servicios figure {

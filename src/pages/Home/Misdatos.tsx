@@ -4,7 +4,8 @@ const misDatos = [
         Apellidos: "Fernández",
         Edad:"20",
         Localidad: "04620,Vera",
-        Estudios: "CFGM Sistemas Microinformáticos y Redes"
+        Estudios1: "CFGM Sistemas Microinformáticos y Redes",
+        Estudios2: "CFGS Administracion de Sistemas Informáticos en Red"
     }
 ]
 
@@ -16,9 +17,10 @@ export const Datos = () => {
                 return(
                     <>
                         <li>{datos.Nombre}</li>
-                        <li>{datos.Apellidos}</li>
+                        <li >{datos.Apellidos}</li>
                         <li>{datos.Localidad}</li>
-                        <li>{datos.Estudios}</li>
+                        <li>{datos.Estudios1}</li>
+                        <li>{datos.Estudios2}</li>
                     </>
                 )
             })
