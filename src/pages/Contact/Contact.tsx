@@ -4,6 +4,7 @@ export const Contact = () => {
     return (
         <main>
             <section id='contact'>
+
                 <h2>Manda tu información</h2>
                 <p>
                     Si lo desea, puede mandarme su información para

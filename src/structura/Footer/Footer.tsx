@@ -14,11 +14,11 @@ export const Footer = () => {
                     </NavLink>
                     <NavLink to={'https://www.youtube.com/channel/UCcjYbkn9iPVYnqE8c6-2kOQ'} target="_blank">
                         <YouTubeIcon fontSize='large'/>
-                        <span>Mis Vídeos</span>
+                        <span>Mis vídeos</span>
                     </NavLink>
-                    <a href="mailto:juanjosefdz2003@gmail.com" target="_blank">
+                    <a href="mailto:jj.ff.tecno@gmail.com" target="_blank">
                         <EmailIcon fontSize='large'/>
-                        <span>Mándame un email</span>
+                        <span>jj.ff.tecno@gmail.com</span>
                     </a> 
                 </nav>
     </footer>
